@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="闲话,">
+  <meta name="keywords" content="数据库,">
 
 
 
@@ -79,20 +79,18 @@
 
 
 
-<meta name="description" content="&amp;emsp;&amp;emsp;一期一会，世当珍惜！&amp;emsp;&amp;emsp;意思大抵是：人的一生中，每一次见面和际遇都是唯一的，因而要以最好的方式对待对方。">
-<meta name="keywords" content="闲话">
+<meta name="description" content="第一部分 show databases;　　显示数据库列表   create database test;　　创建数据库test   show columns from user;　　显示列名及信息">
+<meta name="keywords" content="数据库">
 <meta property="og:type" content="article">
-<meta property="og:title" content="一期一会">
-<meta property="og:url" content="http://yoursite.com/2018/12/24/one-meeting/index.html">
+<meta property="og:title" content="SQL笔记">
+<meta property="og:url" content="http://yoursite.com/2019/01/26/database-notes-1/index.html">
 <meta property="og:site_name" content="Acheao&#39;s Notes">
-<meta property="og:description" content="&amp;emsp;&amp;emsp;一期一会，世当珍惜！&amp;emsp;&amp;emsp;意思大抵是：人的一生中，每一次见面和际遇都是唯一的，因而要以最好的方式对待对方。">
+<meta property="og:description" content="第一部分 show databases;　　显示数据库列表   create database test;　　创建数据库test   show columns from user;　　显示列名及信息">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2018/12/24/one-meeting/Mind.PNG">
-<meta property="og:updated_time" content="2019-01-18T17:19:49.782Z">
+<meta property="og:updated_time" content="2019-01-26T15:39:00.074Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="一期一会">
-<meta name="twitter:description" content="&amp;emsp;&amp;emsp;一期一会，世当珍惜！&amp;emsp;&amp;emsp;意思大抵是：人的一生中，每一次见面和际遇都是唯一的，因而要以最好的方式对待对方。">
-<meta name="twitter:image" content="http://yoursite.com/2018/12/24/one-meeting/Mind.PNG">
+<meta name="twitter:title" content="SQL笔记">
+<meta name="twitter:description" content="第一部分 show databases;　　显示数据库列表   create database test;　　创建数据库test   show columns from user;　　显示列名及信息">
 
 
 
@@ -122,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/12/24/one-meeting/">
+  <link rel="canonical" href="http://yoursite.com/2019/01/26/database-notes-1/">
 
 
 
 
 
-  <title>一期一会 | Acheao's Notes</title>
+  <title>SQL笔记 | Acheao's Notes</title>
   
 
 
@@ -265,7 +263,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/one-meeting/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/26/database-notes-1/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Acheao Lin">
@@ -282,7 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">一期一会</h1>
+          <h1 class="post-title" itemprop="name headline">SQL笔记</h1>
         
 
         <div class="post-meta">
@@ -294,8 +292,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-24T00:19:39+08:00">
-                2018-12-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-26T23:08:19+08:00">
+                2019-01-26
               </time>
             
 
@@ -317,8 +315,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/随笔/" itemprop="url" rel="index">
-                    <span itemprop="name">随笔</span>
+                  <a href="/categories/笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">笔记</span>
                   </a>
                 </span>
 
@@ -354,7 +352,70 @@
       
 
       
-        <p>&emsp;&emsp;一期一会，世当珍惜！<br>&emsp;&emsp;意思大抵是：人的一生中，每一次见面和际遇都是唯一的，因而要以最好的方式对待对方。<a id="more"></a><br>&emsp;&emsp;前几天在学英语时，原本计划着阅读几篇英语文章和背其中的生词。然而没看一半，我就想着要把看过的文章整理好之后放到Github Page上面，这样方便以后阅读和复习。想到这就动手研究了一会HEXO,看看NEXT主题的文档。此时心中想：如果整理规划好，以后就可以方便轻松的管理，能更好的提升效率。然后发现NXET主题中有部分东西想自定义，结果就去搜索了一番HEXO主题开发。<br>&emsp;&emsp;不知不觉地，思绪早已经离开学英语，忘记学英语这件事了。幸好我及时醒悟，觉得这是一个不好的现象。为此我打算画个思维导图来整理一下，想办法避免发生这种事。既然想画思维导图，那我就先下载一个思维导图的软件吧。上网搜了一下，发现比较好看的都要收费，搜搜免费的吧。咦，有个开源的jsMind好像不错，唉，好像有点难用啊。郁闷啊，想下载个思维导图都找不到满意的。jsMind外观不错，可惜用起来不简单，貌似每次用都要编码。要不把jsMind和electron结合起来做一个桌面软件吧，用js的话还可以做成夸平台的。这么一想觉得好像不错，看看jsMind是什么许可，哦，BSD。BSD好像很自由啊，百度一波BSD的具体含义。至此，学英语这件事已经被我忘记到九霄云外了。好在我又反应过来了，于是将jsMind+electron的计划先记下来。接着用Word先整理了下思维导图，如下。<br><img src="/2018/12/24/one-meeting/Mind.PNG" alt="logo">&emsp;&emsp;我发现非工作状态下，人的精神很容易发散，大概是因为没有限定在某个时间内完成某事，没有具体的目标，也就没紧迫感，因此思维就容易发散。这时想起了Facebook“完成比完美重要”这句话。如果手头上的工具能凑合使用，就没必要特意去开发一款更好的工具，用于完成这件事，除非开发工具后提升效率节约的时间能抵消开发工具本身的时间。你不能因为想砍一棵树，就想找把斧头，发现斧头不够趁手，就想自己做一把，为了做斧头又想先学炼钢。这世界上值得改善的事情太多，而精力和时间总是有限。</p>
+        <h5 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h5><ul>
+<li><strong>show databases;</strong>　　显示数据库列表  </li>
+<li><strong><font color="blue">create database</font> test;</strong>　　创建数据库test  </li>
+<li><strong>show <font color="#0000FF">columns</font> from user;</strong>　　显示列名及信息<a id="more"></a>  </li>
+<li><strong>select <font color="blue">distinct</font> username from user;</strong>　　查询并去除重复记录  </li>
+<li><strong>select username from user <font color="blue">limit</font> 2;</strong>　　查询并显示2行记录  </li>
+<li><strong>select username from user limit <font color="#0000ff">N</font>,K;</strong><br><strong>= select  username from user limit <font color="blue">K</font> <font color="red">offset</font> <font color="blue">N</font>;</strong><br>N表示第N+1列开始(包含第N+1行)，K条记录</li>
+<li><strong>select <font color="blue">user.username</font> from user;</strong>　　全限定名  </li>
+<li><strong>select username from user <font color="blue">order by</font> columnsname;</strong><br>查询结果按照列columnsname排序  </li>
+<li><strong>select username from user order by username <font color="blue">desc</font>;</strong><br>查询结果按照列columnsname倒序</li>
+</ul>
+<h5 id="第二部分"><a href="#第二部分" class="headerlink" title="第二部分"></a>第二部分</h5><pre><code>!= 不等于 　&lt;&gt;不等于　　&gt;大于　　&gt;=大于等于
+between A and　B　介于A和B之间(包含A和B)
+</code></pre><ul>
+<li><strong>select * from user where id <font color="red">is</font> null;</strong>　　is关键字  </li>
+<li><strong><del>select * from user where id = 20 <font color="blue">and</font> price &lt;= 1000;</del></strong>　　and操作符  </li>
+<li><strong><del>select * from user where price &gt; 200 <font color="blue">or</font> count &lt;20;</del></strong>　　or操作符  </li>
+<li><strong>select * from user where id = 100 or id = 201 and price &gt;100;</strong>　　<font color="blue">and优先级高于or</font></li>
+<li><strong>select * from user where (id = 100 or id = 201) and price &gt;100;</strong>　　可以使用括号解决优先级问题  </li>
+<li><strong>select * from user where id <font color="blue">in</font> (1,2,3,4);</strong>　　in操作符  </li>
+<li><strong>select * from user where id <font color="blue">not</font> in (1,2,3);</strong>　　not操作符,对查询条件取反，可以和<font color="red">between，exists</font>连用  </li>
+<li><strong>select * from user where username <font color="blue">like</font> ‘lin<font color="blue">%</font>‘;</strong>　　like通配符过滤,区分大小写  </li>
+<li><strong>select * from user where username <font color="blue">like</font> ‘<font color="blue">%</font>lin<font color="blue">%</font>‘;</strong>　　like通配符过滤%不能匹配null  </li>
+<li><strong>select * from user where username like ‘<font color="red">_</font>lin’；</strong>　　_匹配任意字符但是只匹配一个，%可以匹配任意数量(包括0个) </li>
+</ul>
+<h5 id="第三部分"><a href="#第三部分" class="headerlink" title="第三部分"></a>第三部分</h5><ul>
+<li><strong>select * from user where username <font color="blue">regexp</font> ‘lin’;</strong>　　正则表达式匹配包含lin字符的列，与like不同，like需要完全匹配才返回列，regexp只需部分匹配，并且不区分大小写  </li>
+<li><strong>select * from user where usenamr regexp ‘<font color="red">.</font>i’;</strong>　　<strong>.</strong> 正则表达式中匹配任意1个字符  </li>
+<li><strong>select * from user where username regexp ‘lin<font color="blue">|</font>小’;</strong>　　| 逻辑或  </li>
+<li><strong>select * from user where username regexp ‘100|200|300’;</strong>　　多个或并列 </li>
+<li><strong>select * from user where username regexp <font color="blue">binary</font> ‘lin’;</strong>　　binary关键词使正则表达式匹配区分大小写  </li>
+<li><strong>select * from user where username regexp ‘<font color="blue">[123]</font>lin’;</strong>　　匹配几个字符之一<br>= <strong>select * from user where username regexp ‘<font color="blue">1lin</font>|<font color="blue">2lin</font>|<font color="blue">3lin</font>‘;</strong>  </li>
+<li><strong>select * from user where username regexp ‘[<font color="blue">^</font>123]’;</strong>　　^字符集的否定，即除了123均匹配  </li>
+<li><strong>[0123456789]等同于[0-9]</strong>　　　<code>\\.　表示.</code> 　　　<code>\\\　表示\</code>　　　<code>\\_　表示_</code>  </li>
+<li><strong>[a-zA-Z0-9]任意字母和数字</strong>　　<strong>[:print:]任意可打印字符</strong>　　<strong>[:graph:]与[:print:]相同，但不包括空格</strong>　　</li>
+<li><strong>重复元匹配<code>*</code>　+　？　{n}　{n,}　{n,m}</strong><br><code>*　　0个或多个匹配</code>　　　<code>+　　 1个或多个匹配 (等于{1，})</code>　　<code>?　　0个或1个匹配（等于{0，1}）</code><br><code>{n}　　指定匹配的数目</code>　　<code>{n,}　　不少于指定数目的匹配</code>　　<code>{n,m}　　匹配数目的范围</code></li>
+<li><strong>定位符^　$　[[:　[[:&gt;:]]</strong><br><code>^　　文本的开始或者集合的否定</code>　　<code>$　　文本的结尾</code>　　<code>[[:　　　词的开始</code>　　<code>[[:&gt;:]]　　词的结尾</code><br><strong>select * from user where username regexp ‘<font color="red">^</font>[0-9]’;</strong>　　匹配以数字开头的字段  </li>
+</ul>
+<h5 id="第四部分"><a href="#第四部分" class="headerlink" title="第四部分"></a>第四部分</h5><ol>
+<li><p><strong>计算字段</strong></p>
+<pre><code>1.concat() 拼接字符串 
+  example：select concat(username,pwd) from user;
+2.rtrim() 去掉值右边的空格        
+  ltrim() 去掉值左边的空格 
+3.as 别名，也称为导出列    
+4.now() 当前日期         
+6.upper() 转成大写  lower() 转成小写
+7.date() 函数  time（）函数
+8.avg() 返回某列的平均值   
+  count（）返回某列的行数 
+  count(*) 返回总列数  
+  count（username）返回某一列，除去null的行数
+9.max() 返回某列的最大值  
+  忽略值为null的行 如果列为文本则返回最后一行 
+7.min() 返回某列的最小值  
+  忽略值为null的行 如何列为文本则返回最前一行
+8.sum() 返回某列值之和    
+  忽略值为null的行
+9.avg() count() max() min() 
+  可以使用distinct区分不同,如count（distinct column）
+</code></pre></li>
+<li><strong>select count(*) form user where username = ‘linc’ <font color="blue">group by</font> id order by id;</strong>　　<br>按id分组统计,group by 在where之后，order by之前</li>
+<li><strong>select count(*) from user group by id <font color="blue">having</font> count(*) &gt;= 2;</strong>　　having过滤条件和where基本相同，但是having用于过滤分组</li>
+</ol>
 
       
     </div>
@@ -372,7 +433,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/闲话/" rel="tag"># 闲话</a>
+            <a href="/tags/数据库/" rel="tag"># 数据库</a>
           
         </div>
       
@@ -385,15 +446,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/01/19/vocabulary-01-01/" rel="next" title="词汇1.01">
+                <i class="fa fa-chevron-left"></i> 词汇1.01
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/01/07/booklist/" rel="prev" title="2018年阅读书单">
-                2018年阅读书单 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -445,8 +506,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -518,6 +588,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#第一部分"><span class="nav-number">1.</span> <span class="nav-text">第一部分</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#第二部分"><span class="nav-number">2.</span> <span class="nav-text">第二部分</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#第三部分"><span class="nav-number">3.</span> <span class="nav-text">第三部分</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#第四部分"><span class="nav-number">4.</span> <span class="nav-text">第四部分</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
