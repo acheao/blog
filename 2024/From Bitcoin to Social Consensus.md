@@ -11,4 +11,4 @@ Have people ever thought about why paper currency can buy goods?
 Have you ever thought about why the output of your hard work can be exchanged for a piece of paper?
 Because of consensus, you know you can use paper money to buy someone else's output. Some say it's credit, and that's true, but credit is only used to form consensus. In fact, the credit of  currency is pitifully low, as they are constantly printing money to dilute the currency.
 
-So, we come back to the second question about Bitcoin: Can you create a new name, similar to changing a variable name, and then release a new set of virtual currency? The answer is yes, you can. In fact, Litecoin is a similar example. However, what eventually forms widespread consensus is still Bitcoin. Because of consensus.
+So, we come back to the second question about Bitcoin: Can you create a new name, similar to changing a variable name, and then release a new set of virtual currency? The answer is yes, you can. In fact, Litecoin is a similar example. However, what eventually forms widespread consensus is still Bitcoin.
